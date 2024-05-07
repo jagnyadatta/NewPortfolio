@@ -1,0 +1,22 @@
+@media screen and (max-width: 780px){
+    /* nav sectin  */
+    nav ul li{
+        margin-right: 10px;
+    }
+    /* home section */
+    #home{
+        margin-top: 20px;
+    }
+    .profile-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .photo{
+        margin-top: 30px;
+        max-width: 60%;
+    }
+    #home .container1{
+        height: 110%;
+    }
+}
