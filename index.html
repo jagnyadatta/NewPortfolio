@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#social">Social</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section 1: Home Page -->
+    <section id="home">
+        <div class="container1">
+            <div class="profile-info">
+                <div class="text">
+                    <h3>Hello It's Me</h3>
+                    <h1>Mr. Jagnyadatta Dalai</h1>
+                    <h3>And I'm a <span>Full Stack Java Developer</span></h3>
+                    <div class="description">
+                        <p>I'm a Web Designer with extensive experience for over 1 years.
+                            <br>expertise is to create and website design, frontend design and Also Many more projects i did.
+                        </p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="/img/myimage.jpeg" alt="Your Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Career Details -->
+    <section id="career">
+        <div class="container">
+            <!-- Career details table dynamically generated using JavaScript -->
+            <table id="career-table"></table>
+        </div>
+    </section>
+
+    <!-- Section 3: Social Accounts -->
+    <section id="social">
+        <div class="container">
+            <!-- Social accounts and open source accounts dynamically generated using JavaScript -->
+            <div id="social-accounts"></div>
+        </div>
+    </section>
+
+    <!-- Section 4: Projects -->
+    <section id="projects">
+        <div class="container">
+            <!-- Projects dynamically generated using JavaScript -->
+            <div id="projects-list"></div>
+        </div>
+    </section>
+
+    <!-- Section 5: Contact Form -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone">
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Section 6: Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name</p>
+            <div class="social-icons">
+                <!-- Social media icons with links to your accounts -->
+                <a href="your_social_account_link"><img src="social_icon1.png" alt="Social Icon"></a>
+                <a href="your_social_account_link"><img src="social_icon2.png" alt="Social Icon"></a>
+                <!-- Add more social media icons as needed -->
+            </div>
+            <button id="go-top-btn">↑</button>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

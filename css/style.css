@@ -1,0 +1,235 @@
+/* CSS for Silver Color Scheme Portfolio */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Style the body */
+body {
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Container styles */
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+/* Style for navbar */
+nav {
+    /* display: flex; */
+    /* background-color: #fff; */
+    color: #fff; /* White text */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    /* color: #0b1615;  */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: rgb(255, 187, 0);
+}
+
+/* Blur effect */
+.blur {
+    filter: blur(10px); /* Adjust the blur amount as needed */
+    transition: filter 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Blue text on hover */
+}
+
+nav ul li a.active {
+    color: #007bff; /* Blue text for active item */
+}
+
+/* Style for home page */
+#home {
+    height: 100vh; /* Set height to 100% of viewport height */
+    color: #fff; /* White text */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    /* text-align: center;  */
+}
+.container1{
+    padding:20px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Additional styles for text and photo */
+.text {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+.text p{
+    color: #077f4d;
+}
+
+.text h3{
+    color: rgb(32, 9, 134);
+}
+.text h1{
+    color: #6B7B8C;
+    text-shadow: 1px 1px 2px #5ea5f1;
+}
+
+.text h3 span{
+    color: #007bff;
+}
+
+.photo {
+    flex: 1;
+    text-align: right;
+    max-width: 30%; /* Adjust photo size as needed */
+    height: 50%;
+    border: 2px solid #fff;
+    border-bottom: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.photo img {
+    max-width: 100%; /* Ensure the photo fits its container */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+#home .container1{
+    width: 230vh;
+    height: 110%;
+}
+
+/* Style for sections */
+section {
+    padding: 50px 0;
+}
+
+/* Style for headings */
+h1, h2 {
+    margin-bottom: 10px;
+    color: #333; /* Dark gray text */
+}
+
+/* Style for images */
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+/* Style for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray table header */
+}
+
+/* Style for form */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for footer */
+footer {
+    background-color: #333; /* Dark gray footer background */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff; /* White text */
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#go-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%; /* Circular button */
+}
+
+#go-top-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
