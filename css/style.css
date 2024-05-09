@@ -96,6 +96,21 @@ nav ul li a.active {
     width: 100%;
 }
 
+/*================== Education Details ===================*/
+#education .container{
+    height: 100vh;
+    margin-top: -60px;
+}
+#education .container h2{
+    margin-top: 60px;
+    font-size: 35px;
+    text-align: center;
+}
+#education .container td{
+    text-align: center;
+    padding: 10px;
+}
+
 /* Additional styles for text and photo */
 .text {
     /* text-align: center; */

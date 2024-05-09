@@ -1,7 +1,7 @@
 // JavaScript to dynamically generate content for career, social, and project sections
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Function to generate career details
-    function generateCareerDetails() {
+    /*function generateCareerDetails() {
         // Sample data, replace with your actual data
         const careerData = [
             { company: 'Company 1', position: 'Position 1', duration: 'Year 1 - Year 2' },
@@ -17,9 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
             row.insertCell(1).textContent = item.position;
             row.insertCell(2).textContent = item.duration;
         });
-    }
+    } */
 
-    // Function to generate social accounts
+    
+    // ===============Function to generate social accounts========
     function generateSocialAccounts() {
         // Sample data, replace with your actual data
         const socialData = [
@@ -65,14 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
     generateProjects();
 
     // Function to handle form submission
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
         event.preventDefault(); // Prevent default form submission
         // Here you can add code to handle form submission, e.g., send data to a server
         alert('Form submitted successfully!');
     });
 
     // Functionality for "Go to Top" button
-    document.getElementById('go-top-btn').addEventListener('click', function() {
+    document.getElementById('go-top-btn').addEventListener('click', function () {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 });
@@ -81,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // JavaScript for adding active status to navbar menu items based on current section
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const sections = document.querySelectorAll('section');
 
     function setActiveMenuItem() {
@@ -114,16 +115,16 @@ document.addEventListener('DOMContentLoaded', function() {
 // ----------------------------------------------------
 // JavaScript for adding blur effect on navbar menu click
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const menuItems = document.querySelectorAll('nav ul li a');
 
     menuItems.forEach(item => {
-        item.addEventListener('click', function() {
+        item.addEventListener('click', function () {
             // Add blur class to body
             document.body.classList.add('blur');
 
             // Remove blur class after a short delay (you can adjust the delay as needed)
-            setTimeout(function() {
+            setTimeout(function () {
                 document.body.classList.remove('blur');
             }, 500); // 500 milliseconds delay
         });
