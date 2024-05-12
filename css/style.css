@@ -111,6 +111,18 @@ nav ul li a.active {
     padding: 10px;
 }
 
+/* ==================social section================== */
+#social .container{
+    width: 100%;
+    height: 100vh;
+    margin-top: -90px;
+}
+#social .container h2{
+    margin-top: 90px;
+    font-size: 35px;
+    text-align: center; 
+}
+
 /* Additional styles for text and photo */
 .text {
     /* text-align: center; */
