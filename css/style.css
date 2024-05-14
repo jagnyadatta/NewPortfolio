@@ -125,7 +125,7 @@ nav ul li a.active {
 }
 /* ===================Project Section================= */
 #projects .container{
-    height: 100vh;
+    height: 110vh;
     margin-top: -90px;
 }
 #projects .container h2{
@@ -140,7 +140,7 @@ nav ul li a.active {
 }
 #projects .projectlist .project{
     width: 100%;
-    height: 200px;
+    height: 400px;
     border: 1px solid black;
 }
 #projects #proj-1{
@@ -154,9 +154,14 @@ nav ul li a.active {
 #projects #proj-1 div{
     width: 45%;
     height: 90%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
-
+#projects #proj-1 .imgg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
 /* ==================social section================== */
 #social .container{
     width: 100%;
@@ -208,6 +213,17 @@ nav ul li a.active {
     background-color: orange;
     transition: 0.3s;
 }
+
+/* ===============contact section=================  */
+#contact h2{
+    margin-top: 90px;
+    font-size: 35px;
+    text-align: center;
+}
+#contact .container{
+    margin-top: -90px;
+}
+#contact 
 
 /* Additional styles for text and photo */
 .text {
@@ -307,44 +323,51 @@ form button {
     padding: 10px 20px;
     background-color: #007bff; /* Blue button */
     color: #fff;
-    border: none;
+    border: 2px solid #007bff;
     cursor: pointer;
+    border-radius: 4px;
+    transition: 0.2s;
 }
 
 form button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    color: #007bff;
+    background-color: #ffffff; /* Darker blue on hover */
+    border: 2px solid #007bff;
+    transition: 0.2s;
 }
 
 /* Style for footer */
 footer {
-    background-color: #333; /* Dark gray footer background */
+    /* background-color: #333; Dark gray footer background */
+    margin-top: -70px;
     padding: 20px 0;
     text-align: center;
     color: #fff; /* White text */
 }
 
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin: 0 5px;
+footer p{
+    font-size: 20px;
+    color: black;
 }
 
 #go-top-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    width: 50px;
     background-color: #007bff; /* Blue button */
     color: #fff;
-    border: none;
+    border: 2px solid #007bff;
     padding: 10px;
     font-size: 24px;
     cursor: pointer;
     border-radius: 50%; /* Circular button */
+    transition: 0.2s;
 }
 
 #go-top-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    border: 2px solid #007bff;
+    background-color: white; /* Darker blue on hover */
+    color: #007bff;
+    transition: 0.2s;
 }
