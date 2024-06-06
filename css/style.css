@@ -51,6 +51,52 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
+nav ul .menu{
+    font-size: 25px;
+    color: black;
+}
+.logo{
+    display: none;
+    margin-left: auto;
+    color:#000000;
+}
+ /*================= sidebar section ============== */
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #ffffff00;
+    backdrop-filter: blur(8px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+    align-items: flex-start;
+    transition: 0.3s;
+}
+.sidebar li span{
+    color: black;
+    font-size: 25px;
+    margin-right: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sidebar a{
+    width: 100%;
+}
+.sidebar li:hover{
+    border-radius: 4px;
+    background-color: #ffffff;
+    transition: .3s;
+}
 
 nav ul li a {
     /* color: #0b1615;  */
