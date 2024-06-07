@@ -16,17 +16,17 @@
     <!-- Navbar -->
     <nav>
         <div class="container">
-            <ul>
+            <ul class="menubar">
                 <li class="logo">Jagnyadatta</li>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#education">Career</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#social">Social</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="menu"><span class="fa-solid fa-bars"></span></li>
+                <li class="hidemobile"><a href="#home" class="active">Home</a></li>
+                <li class="hidemobile"><a href="#education">Career</a></li>
+                <li class="hidemobile"><a href="#projects">Projects</a></li>
+                <li class="hidemobile"><a href="#social">Social</a></li>
+                <li class="hidemobile"><a href="#contact">Contact</a></li>
+                <li class="menu" onclick="showSidebar()"><span class="fa-solid fa-bars"></span></li>
             </ul>
             <ul class="sidebar">
-                <li class="close"><span class="fa-solid fa-close"></span></li>
+                <li class="close" onclick="hideSidebar()"><span class="fa-solid fa-close"></span></li>
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#education">Career</a></li>
                 <li><a href="#projects">Projects</a></li>

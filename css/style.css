@@ -41,24 +41,26 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0px 0;
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
-nav ul .menu{
-    font-size: 25px;
-    color: black;
+nav ul li:first-child{
+    display: '';
+    color: rgb(255, 187, 0);
+    margin-right: auto;
 }
-.logo{
+nav ul .menu{
     display: none;
-    margin-left: auto;
-    color:#000000;
+    color: black;
 }
  /*================= sidebar section ============== */
 .sidebar{
@@ -81,6 +83,7 @@ nav ul .menu{
     width: 100%;
     align-items: flex-start;
     transition: 0.3s;
+    margin-top: 10px;
 }
 .sidebar li span{
     color: black;
