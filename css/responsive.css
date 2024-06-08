@@ -19,8 +19,23 @@
     }
     nav ul li:first-child{
         display: inline;
+        font-size: 25px;
+        color: rgb(169, 39, 230);
+    }
+    nav ul #logo{
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgb(0, 153, 255);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: rgb(169, 39, 230);
+        background-color: antiquewhite;
+    }
+    nav .container ul li a{
         font-size: 20px;
-        color: orangered;
     }
 
     /* home section */
@@ -109,6 +124,18 @@
     /* nav sectin  */
     nav ul li {
         margin-right: 15px;
+    }
+    nav ul #logo{
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgb(0, 153, 255);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: rgb(169, 39, 230);
+        background-color: antiquewhite;
     }
 
     /* home section */
